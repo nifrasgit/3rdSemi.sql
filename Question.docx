@@ -1,0 +1,157 @@
+Ex 01	: To retrieve all the data in the table.
+Query	: Get full details of COURSE.
+
+Ex 02	: To retrieve data from a specified column.
+Query	: Retrieve the course numbers for courses which currently has students.
+
+Ex 03	: To retrieve data from multiple columns.
+Query	: List student numbers, names and the courses being followed.
+
+Ex 04	: To remove duplicated data.
+Query	: Retrieve the course numbers for courses which currently has students.
+
+Ex 05	: To retrieve data using expressions.
+Query	: Increase the marks of all subjects by 10% and display the student numbers, original marks and scaled marks.
+
+Ex 06	: To retrieve data in a specified order.
+Query	: List the course numbers and the names of all students with their courses in a reverse alphabetical order and names within each course in alphabetical order.
+
+Ex 07	: To order the result of a retrieval of expressions.
+Query	: Increase the marks of all subjects by 10% and display the student numbers, original marks and scaled marks with this in descending order.
+
+Ex 08	: To retrieve data which satisfy a condition.
+Query	: Retrieve the names of all students who are in the first year.
+
+Ex 09	: To retrieve data which satisfy condition with logical operators.
+Query	: Retrieve student numbers for students who are in their first year and were born on 17/1/1988.
+
+Ex 10	: To retrieve data which satisfy conditions with more than one logical operator.
+Query	: Retrieve student numbers and the names of students who are following C1 or C2 in either first year or second year.
+
+Ex 11	: To retrieve data using the wildcard character  %.
+Query	: List the heads of departments who have the initial S.
+
+Ex 12	: To retrieve data using the wildcard character _.
+Query	: List the names of students whose surname is Dias.
+
+Ex 13	: To retrieve data using wildcard characters.
+Query	: List the names of students who have ‘i’ as the second letter in their name.
+
+Ex 14	: To retrieve a range of unknown values.
+Query	: Retrieve the subject numbers and names for those subjects for which last character of the subject number is odd.
+
+Ex 16	: To retrieve rows which contain null strings.
+Query	: List the names of students with no value entered for address.
+
+Ex 17	: To retrieve the values in a list.
+Query	: List the names of students who are from Colombo, Galle or Kandy.
+
+Ex 18	: To retrieve data from a join where the join condition is the equality of the column values.
+Query	: Get the full details of subjects included in each course.
+
+Ex 19	: To retrieve data using a greater than join.
+Query	: List the numbers and names of students for whom the year of study exceeds the duration of the course.
+
+Ex 20	: To retrieve data from a join where the join condition includes additional conditions.
+Query	: For all courses list the names of students who are not in the final year.
+
+Ex 21	: To retrieve data from a join of three tables.
+Query	: For each course, list the names of subjects in the course and the names of heads    of departments which teach the subject.
+
+Ex 22	: To compare values in different rows of the same column in a table.
+Query	: List all the pairs of courses which have subjects in common.
+
+Ex 23	: To retrieve a value using a function.
+Query	: Get the number of students.
+
+Ex 24	: To retrieve a value using a function with DISTINCT.
+Query	: Give the number of courses which currently has students.
+
+Ex 25	: To retrieve a value using a function with search conditions.
+Query	: Find the average of the first year marks of student number ST103.
+
+Ex 26	: To retrieve a value using a function on a group of values.
+Query	: For each student, find the average mark for each year.
+
+Ex 27	: To retrieve a value using a function on a group of values which satisfy a condition.
+Query	: For each year of study, find the number of students who were born on 1988.
+
+Ex 28	: To limit the retrieval only to the group which satisfies a condition.
+Query	: List the student numbers and the subject numbers for which the student had obtained an average of less than 40.
+
+ 
+Ex 29	: To limit the GROUP BY clause using the keyword IN.
+Query	: Get the number of students who are from Kandy, Colombo or Galle.
+
+Ex 30	: To retrieve data using a sub query.
+Query	: List the names of students who studied the subjects SU04.
+
+Ex 31	: To retrieve data using a sub query with NOT IN.
+Query	: List the names of students who do not follow Bio Science.
+
+Ex 32	: To retrieve data using a function in a sub query.
+Query	: List the names of the most senior students.
+
+Ex 33	: To retrieve data involving multiple levels of sub queries.
+Query	: Retrieve student names for students who study at least one subject from the Department of Mathematics.
+
+Ex 34	: To retrieve data using EXISTS.
+Query	: List the names of students who study the subject SU04.
+
+Ex 35	: To retrieve data using NOT EXISTS.
+Query	: List the courses which have no students.
+
+Ex 36	: To retrieve data using NOT EXISTS in a nested sub query.
+Query	: Retrieve the names of students who studied all subjects.
+
+Ex 37	: To retrieve data which lies between two given values.
+Query	: List the student number, subject number and the year of exam for which the students have obtained marks between 50 and 60.
+
+Ex 38	: To retrieve data using UNION.
+Query	: List the subject number for subjects which are offered by Department of Chemistry or which are included in C2.
+
+Ex 39	: To update a single row.
+Query	: Change the address of student number ST103 to Kalutura.
+
+Ex 40	: To update all the rows in a table.
+Query	: Increase the marks of all subjects by 10%.
+
+Ex 41	: To update multiple rows.
+Query	: Increase the marks of subjects which lie between 0 and 25 by 5 marks.
+
+Ex 42	: To update groups of rows which satisfy different conditions.
+Query	: Increase marks of all subjects by adding the increment as given below:
+Rang	 Increment
+0-24 	     8
+30-36 	     7
+44-54	     5
+
+Ex 43	: To update with a sub query.
+Query	: Increase the marks of subjects offered by Department of Mathematics by 10%.
+
+Ex 44	: To insert a single row.
+Query	: Add the subject number SU08, subject name Statistics and department name Mathematics to the table SUBJECT.
+
+Ex 45	: To insert a row with missing values.
+Query	: Add a new student to the table STUDENT with the following values:
+Student Number : ST109
+Student Name : S.Kethees
+Course Number : C3
+
+Ex 46	: To add data based on existing data of another table.
+Query	: Store the student numbers, names and the year of study of all students who are following Bio Science course into the table BIO_SCIENCE.
+
+Ex 47	: To create a new table and add data based on existing data.
+Query	: Find the average marks of all students for each year and save the result in a table AVERAGE.
+
+Ex 48	: To delete a single row.
+Query	: Delete the marks of second year exam of subject number SU03 of the student S1003.
+
+Ex 49	: To delete multiple rows.
+Query	: Delete all first year exam marks.
+
+Ex 50	: To delete all the rows.
+Query	: Delete all department information.
+
+Ex 51	: To delete rows using a sub query.
+Query	: Delete the information of students of final year
